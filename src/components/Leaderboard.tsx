@@ -37,7 +37,7 @@ const Leaderboard: React.FC = () => {
       <div className="flex items-center p-1 px-3 text-[20px] sm:text-[28px] bg-black bg-opacity-70 font-semibold text-[#FF9E0D]">
         <IoTrophy className="w-5" />
 
-        <div className="flex justify-between px-12 w-full">
+        <div className="flex justify-between px-12 w-full font-mono">
           <span>Name</span>
           <span>Time</span>
         </div>
