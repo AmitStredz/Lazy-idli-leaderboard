@@ -55,6 +55,8 @@ const Leaderboard: React.FC = () => {
                 ? "bg-gradient-to-r from-[#9F9F9F] via-[#DDDDDD] to-[#9F9F9F] text-black"
                 : index == 2
                 ? "bg-gradient-to-r from-[#874522] via-[#DF9A79] to-[#874522] text-white"
+                : index == latestIndex
+                ? "bg-black bg-opacity-70 shadow-custom-white border-2 border-white text-white"
                 : "bg-black bg-opacity-70 text-white"
             }`}
           >
