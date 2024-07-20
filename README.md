@@ -1,11 +1,13 @@
 # lazy-idli-leaderboard
 
 ## Overview
-This is a project which tracks and manages the user's scores based on their timing and ranks them accordingly.
+* This is a project which tracks and manages the user's scores based on their timing and ranks them accordingly.
 
-The project is built on React framework using Typescript.
+* The project is built on React framework using Typescript.
 
-The design is made fully responsive using TailwindCSS.
+* The design is made fully responsive using TailwindCSS.
+
+* Other libraries used: `react-redux` `react-icons` 
 
 ## Features
 * First three scorers are rewarded based on their scores.
