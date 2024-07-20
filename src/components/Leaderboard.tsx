@@ -28,7 +28,7 @@ const Leaderboard: React.FC = () => {
 
   return (
     <div
-      className="leaderboard-container relative flex flex-col gap-2 max-h-[37rem] w-full p-2 sm:px-8 overflow-auto no-scrollbar"
+      className="leaderboard-container relative flex flex-col gap-2 max-h-[37rem] w-full p-2 sm:px-8 overflow-x-hidden no-scrollbar"
       style={{
         backgroundImage: `url(${bgImg})`,
         height: "100%",
@@ -77,7 +77,7 @@ const Leaderboard: React.FC = () => {
 
               <div className="flex justify-between items-center px-4 sm:px-8 w-full h-full">
                 <span>{score.username}</span>
-                <div className="flex items-center gap-1 sm:gap-5">
+                <div className="flex items-center gap-2 sm:gap-5">
                   <span className="text-[14px] sm:text-[20px]">
                     {index == 0
                       ? "₹50000"
